@@ -1,0 +1,24 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: purple;
+  border-bottom: 1.5px solid goldenrod;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* hr {
+  margin-top: 0;
+  height: 1.5px;
+  color: goldenrod;
+} */
+
+li {
+  list-style-type: none;
+  font-weight: bold;
+}

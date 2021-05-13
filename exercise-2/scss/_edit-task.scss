@@ -1,0 +1,11 @@
+html body ul li input[type="text"] {
+  display: none;
+}
+
+html body ul li.editMode input[type="text"] {
+  display: block;
+}
+
+html body ul li.editMode label {
+  display: none;
+}

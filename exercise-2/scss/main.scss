@@ -1,0 +1,67 @@
+@import "./variables";
+@import "./heading";
+@import "./new-task.scss";
+@import "./task-list.scss";
+@import "./completed.scss";
+@import "./edit-task.scss";
+@import "./responsive.scss";
+
+html body {
+  background: $white;
+  color: $black;
+  font-family: Lato, sans-serif;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+html body .container {
+  width: 100vw;
+  margin: auto;
+
+  @include small-screen {
+    height: auto;
+    width: 75vw;
+    margin: auto;
+  }
+}
+
+html body ul {
+  margin: 0px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+html body li * {
+  list-style: none;
+  display: inline-block;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+html body li,
+html body h3 {
+  clear: both;
+  list-style: none;
+}
+
+html body input,
+html body button {
+  outline: none;
+}
+
+html body button {
+  background: none;
+  border: 0px;
+  color: $grey;
+  font-size: 15px;
+  width: 60px;
+  margin: 10px 0 0;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+
+html body button :hover {
+  color: $black;
+}

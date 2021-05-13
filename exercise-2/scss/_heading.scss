@@ -1,0 +1,27 @@
+html body h3,
+html body label[for="new-task"] {
+  color: $black;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid $black;
+  padding: 30px 0 10px;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+html body input[type="text"] {
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 18px;
+  padding: 10px;
+  border: 1px solid $dark-grey;
+  background: $white;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: $grey;
+}
+
+html body input[type="text"] :focus {
+  color: $black;
+}
